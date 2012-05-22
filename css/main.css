@@ -1,0 +1,398 @@
+body {
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+}
+
+.wrap {
+	width: 1000px;
+	margin: 30px auto 20px;
+	overflow: hidden;
+}
+
+.logo {
+	margin: 30px auto 0;
+	display: block;
+}
+
+.nav {
+	background: none repeat-x scroll 0 0 #2a538d;
+	border-top: 1px solid #8ea8cc;
+	border-bottom: 1px solid #30496d;
+	box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	width: 100%;
+	height: 30px;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 6px auto 0;
+	width: 490px;
+}
+
+.nav li {
+	display: inline;
+	padding: 0px 10px;
+}
+
+.nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.nav a:visted {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.content {
+	width: 660px;
+	float: left;
+}
+
+.post {
+	overflow: hidden;
+	margin: 0 0 15px;
+	border-bottom: 1px solid #EBEBEB;
+	padding: 0 0 5px 0;
+}
+
+.postimg {
+}
+
+.article {
+	overflow: hidden;
+	margin: 20px 0 0 0;
+}
+
+.post-left {
+	float: left;
+	width: 90px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	margin: 30px 0 0;
+}
+
+.post-left ul {
+	float: right;
+}
+
+.post-left li {
+	margin: 0 0 10px 0;
+}
+
+.post-left a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-left a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.post-left a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-left a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-right {
+	float: right;
+	width: 550px;
+	font-size: 12px;
+	padding: 0 0 10px;
+}
+
+.post-right h3 {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+.post-right h3 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-right h3 a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.post-right h3 a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-right h3 a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-right p {
+	margin: 0 0 20px 0;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.post-right span {
+	margin: 0 0 5px;
+}
+
+.read-more a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.read-more a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.read-more a:visted {
+	color: #000000;
+	text-decoration: none;
+}
+
+.read-more a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*--Sidebar--*/
+
+.sidebar {
+	float: right;
+	width: 300px;
+	overflow: hidden;
+}
+
+.social-sidebar {
+	margin: 0 0 15px 0;
+}
+
+.likeus {
+	box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.5);
+	margin: 15px 0;
+}
+
+.twitter-follow-button {
+	margin: 0 0 10px;
+}
+
+.fb-like-box {
+	border-top: 1px solid #EBEBEB;
+	margin: 5px 0 0;
+    padding: 15px 0 0;
+}
+
+/*----Footer---*/
+
+.footer {
+	width: 100%;
+	border-top: 1px solid #b1b1b1;
+	background-color: #000000;
+	color: #FFFFFF;
+	height: 200px;
+}
+
+.footer p {
+	font-size: 12px;
+	margin: 0 0 10px;
+}
+
+.footercontent {
+	margin: 35px auto 0;
+	width: 900px;
+	overflow: hidden;
+}
+
+.footerleft {
+    float: left;
+    margin: 0 25px 0 0;
+    width: 170px;
+}
+
+.footerright {
+    float: right;
+    margin: 0 0 0 0;
+    width: 180px;
+}
+
+.footerright h3 {
+	font-size: 20px;
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+
+.footermid {
+    margin: 0 0 0 248px;
+    width: 400px;
+}
+
+.footer a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer a:visted {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*----Post style----*/
+
+.content h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.page-post {
+	border-bottom: 1px solid #EBEBEB;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 0 0 5px;
+}
+
+.post-meta {
+	color: #666;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+
+.post-meta a {
+	color: #666;
+	text-decoration: none;
+}
+
+.post-meta a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+.post-meta a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+.post-meta a:active {
+	color: #666;
+	text-decoration: none;
+}
+
+.post-content {
+	margin: 20px 0;
+	line-height: 22px;
+}
+
+.post-content p {
+	margin: 0 0 15px;
+}
+
+.post-choose {
+	overflow: hidden;
+	margin: 10px 0 2px;
+	padding: 0 0 5px;
+	font-size: 11px;
+}
+
+.post-choose a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-choose a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.post-choose a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-choose a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+.post-choose-left {
+	float: left;
+}
+
+.post-choose-right {
+	float: right;
+}
+
+.authorinfo {
+    background-color: #eeeeee;
+    border: 1px solid #999;
+    margin: 15px auto 30px;
+    overflow: hidden;
+    width: 500px;
+	font-size: 12px;
+}
+
+.authorleft {
+	float: left;
+	padding: 10px;
+}
+
+.authorright {
+	float: right;
+	width: 400px;
+	padding: 10px;
+	line-height: 16px;
+}
+
+.authorright a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.authorright a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.authorright a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.authorright a:active {
+	color: #000000;
+	text-decoration: none;
+}
